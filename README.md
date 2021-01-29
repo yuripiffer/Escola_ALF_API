@@ -4,8 +4,8 @@
 
 ## Descrição:
 O aplicativo permite o cadastro de:
- --> Provas com perguntas, respostas e pesos e 
- --> Alunos com provas realizadas e suas respectivas respostas.
+--> Provas com perguntas, respostas e pesos e 
+--> Alunos com provas realizadas e suas respectivas respostas.
 
  É possível também:
 --> Gerar o boletim do(a) aluno(a) para cada prova,
@@ -13,20 +13,17 @@ O aplicativo permite o cadastro de:
 
 
 ## Rodar localmente
-
 1. Instalar, caso ainda não tenha instalado:
 ```
 pip install fastapi
 pip install uvicorn[standard]
 ```
-
 2. Rodar o servidor local:
 ---> Vá até a pasta 'Codigo_Escola_ALF' baixada em seu computador e na parte superior da pasta, onde se encontra o endereço da pasta,
 digite 'CMD' que te direcionará ao prompt. Basta colar o texto 'uvicorn main:app --reload' no prompt e apertar enter. 
 ```
 uvicorn main:app --reload
 ```
-
 3. Na URL, digite o código abaixo para rodar a API:
 ```
 http://127.0.0.1:8000/docs#/
@@ -35,7 +32,6 @@ Ou, caso prefira:
 ```
 http://localhost:8000/
 ```
-
 
 ## Bibliotecas e arquivos utilizados
  - FastAPI
@@ -175,7 +171,7 @@ Não é preciso informar nenhum parâmetro.
 ## EXEMPLO DA ESTRUTURA DOS DADOS:
 ### ALUNO
 ALUNO = 
-          {'AL10':{'nome':'ANDRÉ VEIGAS LEÃO',
+{         'AL10':{'nome':'ANDRÉ VEIGAS LEÃO',
                  'provas_aluno':{'IN00':[2, [1, 'C'], [2, 'D']],
                                  'L022':[3, [1, 'B'], [2, 'D'], [3, 'E']],
                                  'FI00':[]}},
