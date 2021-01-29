@@ -174,7 +174,8 @@ Não é preciso informar nenhum parâmetro.
 
 ## EXEMPLO DA ESTRUTURA DOS DADOS:
 ### ALUNO
-'''ALUNO = {'AL10':{'nome':'ANDRÉ VEIGAS LEÃO',
+ALUNO = 
+          {'AL10':{'nome':'ANDRÉ VEIGAS LEÃO',
                  'provas_aluno':{'IN00':[2, [1, 'C'], [2, 'D']],
                                  'L022':[3, [1, 'B'], [2, 'D'], [3, 'E']],
                                  'FI00':[]}},
@@ -184,11 +185,12 @@ Não é preciso informar nenhum parâmetro.
          'LF16':{'nome':'LEILA FAGUNDES DA SILVA',
                  'provas_aluno':{'IN00':[],
                                  'L022':[3, [1, 'B'], [2, 'D'], [3, 'E']]}},      
-} '''
+}
 
 
 ### PROVA
-'''PROVA = {'LO00':{'título': 'PROVA DE LOGÍSTICA',
+PROVA = 
+{           'LO00':{'título': 'PROVA DE LOGÍSTICA',
                    'n_questões': 3,
                    'info_questões':[['Questão', 'Resposta', 'Peso'], [1, 'B', 1], [2, 'D', 1], [3, 'A', 1]]},
            
@@ -207,4 +209,4 @@ Não é preciso informar nenhum parâmetro.
            'MATE':{'título': 'PROVA DE MATEMÁTICA GERAL',
                    'n_questões': 2,
                    'info_questões':[['Questão', 'Resposta', 'Peso'], [1, 'A', 1], [2, 'A', 1]]},      
-}'''
+}
