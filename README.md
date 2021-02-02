@@ -42,12 +42,12 @@ http://localhost:8000/
 
 ## Organização do sistema
 ### PROVA
-*     - Para cadastrar uma prova é preciso informar um código de 4 caracteres que será o idPROVA, o número de perguntas da prova e o título da prova, 
-*     - Só é possível deletar uma prova caso nenhum aluno tenha a mesma cadastrada. Neste caso, basta deletar o cadastra da devida prova para todos os alunos que têm a mesma em seu cadastro,
-*     - As respostas e pesos de cada pergunta de uma prova só podem ser geradas depois de gerar a prova em si,
-*     - O cadastro de pesos e respostas de uma prova é feito pergunta por pergunta e sempre pode ser modificado.
-*     - É possível deletar todas as respostas de uma prova para preenche-la novamente,
-*     - Todo conteúdo referente ao idPROVA é armazenado e um dicionário chamado'PROVA'.
+*    - Para cadastrar uma prova é preciso informar um código de 4 caracteres que será o idPROVA, o número de perguntas da prova e o título da prova, 
+*    - Só é possível deletar uma prova caso nenhum aluno tenha a mesma cadastrada. Neste caso, basta deletar o cadastra da devida prova para todos os alunos que têm a mesma em seu cadastro,
+*    - As respostas e pesos de cada pergunta de uma prova só podem ser geradas depois de gerar a prova em si,
+*    - O cadastro de pesos e respostas de uma prova é feito pergunta por pergunta e sempre pode ser modificado.
+*    - É possível deletar todas as respostas de uma prova para preenche-la novamente,
+*    - Todo conteúdo referente ao idPROVA é armazenado e um dicionário chamado'PROVA'.
 
 ### ALUNO
 *    - Para cadastrar um aluno(a) é preciso informar um código de 4 caracteres que será o idALUNO, e nome do aluno(a),
